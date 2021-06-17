@@ -24,5 +24,5 @@ elsif player_opt == "piedra" && cpu_opt == "tijera" || player_opt == "tijera" &&
   puts "Computador juega #{cpu_opt}"  
   puts "Ganaste"
 elsif player_opt != "piedra" && player_opt != "papel" && player_opt != "tijera"
-  puts "ERROR: Argumento inválido - Debe ingresar el valor piedra, papel o tijera"
+  puts "Argumento invalido: Debe ser piedra, papel o tijera."
 end
